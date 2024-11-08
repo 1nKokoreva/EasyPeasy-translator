@@ -1,17 +1,8 @@
-Necessary libraries for the application to work.
-To run the application, you need to install the following libraries. You can install them using pip:
-    streamlit==1.40.0
-    transformers==4.46.2
-    pillow==11.0.0
-    pandas==2.2.3
-    numpy==2.0.2
-    requests==2.32.3
-    torch==2.5.1
-
-The code for launching the application through the terminal: 
-streamlit run .\streamlit_app.py
-
-How the App Works?
-Text entry:There is a field on the page where you can enter text in English.Important: Please make sure the spelling is correct so that the translation is accurate.
-Translation:After entering the text, click the "Translate" button or press Ctrl+Shift to start the translation.
-Result:The translated text will appear below the input field when the translation is complete.
+# This file lists the required dependencies for the application
+streamlit==1.40.0
+transformers==4.46.2
+pillow==11.0.0
+pandas==2.2.3
+numpy==2.0.2
+requests==2.32.3
+torch==2.5.1
