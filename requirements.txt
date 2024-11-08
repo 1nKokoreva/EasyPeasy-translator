@@ -1,4 +1,3 @@
-# This file lists the required dependencies for the application
 streamlit==1.40.0
 transformers==4.46.2
 pillow==11.0.0
