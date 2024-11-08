@@ -1,0 +1,50 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+.venv/
+venv/
+
+# IDE directories
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python distribution and packaging files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Distribution directories
+*.whl
+*.tar.gz
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+desktop.ini      # Windows
+
+# Environment variables files
+.env
+.env.*           # If you use dotenv files (for example `.env.local`, `.env.development`)
+
+# Test and coverage files
+coverage/
+*.cover
+*.hypothesis/
+nosetests.xml
+test-results/
+
+# PyInstaller and py2exe build files
+*.spec
